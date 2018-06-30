@@ -11,8 +11,8 @@ import pandas as pd
 from collections import namedtuple
 import re
 
-groupID = "32143427"
-token = "z0aE2sRQd3b3QjSIpEeccWoFlBJHTPS46ubwRIvG"
+groupID = ""
+token = ""
 
 groupmeAPI = "https://api.groupme.com/v3/groups/" + groupID+ "/messages?token=" + token + "&limit=100"
 group_data = "https://api.groupme.com/v3/groups/" + groupID + "?token=" + token
